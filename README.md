@@ -24,7 +24,7 @@ Para ello hacemos un **POST** a https://api.cipcert.goevo.com/REST/2.0.22/Txn/DF
 | Content-Type       | "application/json"                        |
 | Authorization      | "Basic "+base64encoded(sesionToken+":")   |
 
-También tendremos que mandar en la petición **los datos del pago en el siguiente JSON**:
+También tendremos que mandar en la petición **los datos del pago con un JSON** parecido a este:
 
 ~~~
 {
