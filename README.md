@@ -2,6 +2,19 @@
 
 A continuación quiero mostrar lo fácil que puede llegar a ser programar un pago con tarjeta de crédito con Snap*
 
+# Ejemplo
+
+Para ejecutar el ejemplo:
+
+~~~
+$ git clone git@github.com:HackathonLovers/snaphack-nodejs-sample.git
+$ cd snaphack-nodejs-sample
+$ npm install
+$ node app.js
+~~~
+
+NOTA: Necesitas tener previamente instalado node (http://nodejs.org/)
+
 # Autenticación
 
 Lo primero que hay que hacer es una **petición REST con las credenciales de tu aplicación** para obtener un token de sesión.
@@ -75,16 +88,3 @@ También tendremos que mandar en la petición **los datos del pago con un JSON**
     "MerchantProfileId": "SNAP_00001"
 }
 ~~~
-
-# Ejemplo
-
-Para ejecutar el ejemplo:
-
-~~~
-$ git clone git@github.com:HackathonLovers/snaphack-nodejs-sample.git
-$ cd snaphack-nodejs-sample
-$ npm install
-$ node app.js
-~~~
-
-NOTA: Necesitas tener previamente instalado node (http://nodejs.org/)
