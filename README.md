@@ -75,3 +75,13 @@ También tendremos que mandar en la petición **los datos del pago con un JSON**
     "MerchantProfileId": "SNAP_00001"
 }
 ~~~
+
+# Ejemplo
+
+Para ejecutar el ejemplo:
+
+~~~
+$ git clone git@github.com:HackathonLovers/snaphack-nodejs-sample.git
+$ cd snaphack-nodejs-sample
+$ node app.js
+~~~
