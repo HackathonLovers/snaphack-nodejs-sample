@@ -4,7 +4,7 @@ A continuación quiero mostrar lo fácil que puede llegar a ser programar un pag
 
 # Ejemplo
 
-Para ejecutar el ejemplo:
+Para ejecutar el ejemplo, necesitas tener previamente instalado [nodejs](http://nodejs.org/) y ejecutar en un terminal lo siguiente:
 
 ~~~
 $ git clone git@github.com:HackathonLovers/snaphack-nodejs-sample.git
@@ -12,8 +12,6 @@ $ cd snaphack-nodejs-sample
 $ npm install
 $ node app.js
 ~~~
-
-NOTA: Necesitas tener previamente instalado node (http://nodejs.org/)
 
 # Autenticación
 
