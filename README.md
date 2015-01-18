@@ -8,10 +8,10 @@ Lo primero que hay que hacer es una **petición REST con las credenciales de tu 
 
 Para ello hacemos un **GET** a https://api.cipcert.goevo.com/REST/2.0.22/SvcInfo/token añadiendo en la cabecera los siguientes parámetros:
 
-| Headers parámeters |                                      |
-|-----------------------------------------------------------|
-| Content-Type  | "application/json"                        |
-| Authorization | "Basic "+base64encoded(identityToken+":") |
+| Headers parámeters |                                           |
+|--------------------|-------------------------------------------|
+| Content-Type       | "application/json"                        |
+| Authorization      | "Basic "+base64encoded(identityToken+":") |
 
 # Transacción
 
@@ -19,10 +19,10 @@ Lo segundo que hay que hacer es una **petición REST con el token de sesión rec
 
 Para ello hacemos un **POST** a https://api.cipcert.goevo.com/REST/2.0.22/Txn/DF83D00001 añadiendo en la cabecera los siguientes parámetros:
 
-| Headers parámeters |                                      |
-|-----------------------------------------------------------|
-| Content-Type  | "application/json"                        |
-| Authorization | "Basic "+base64encoded(sesionToken+":")   |
+| Headers parámeters |                                           |
+|--------------------|-------------------------------------------|
+| Content-Type       | "application/json"                        |
+| Authorization      | "Basic "+base64encoded(sesionToken+":")   |
 
 También tendremos que mandar en la petición **los datos del pago en el siguiente JSON**:
 
