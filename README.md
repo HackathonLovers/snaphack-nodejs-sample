@@ -1,6 +1,6 @@
 # Ejemplo de pago con tarjeta de crédito con la API de Snap*
 
-A continuación quiero mostrar lo fácil que puede llegar a ser programar un pago con tarjeta de crédito con Snap*
+A continuación os queremos mostrar lo fácil que puede llegar a ser programar un pago con tarjeta de crédito con Snap*
 
 # Ejemplo
 
