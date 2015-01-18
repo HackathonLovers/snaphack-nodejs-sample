@@ -13,6 +13,8 @@ $ npm install
 $ node app.js
 ~~~
 
+Tienes más información en la [docuementación Snap*](http://www.evosnap.com/support/knowledgebase/web-services-api-integration/).
+
 # Autenticación
 
 Lo primero que hay que hacer es una **petición REST con las credenciales de tu aplicación** para obtener un token de sesión.
