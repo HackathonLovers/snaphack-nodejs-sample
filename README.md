@@ -83,5 +83,8 @@ Para ejecutar el ejemplo:
 ~~~
 $ git clone git@github.com:HackathonLovers/snaphack-nodejs-sample.git
 $ cd snaphack-nodejs-sample
+$ npm install
 $ node app.js
 ~~~
+
+NOTA: Necesitas tener previamente instalado node (http://nodejs.org/)
