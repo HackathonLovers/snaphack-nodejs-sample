@@ -1,0 +1,7 @@
+{
+  "name": "snaphack-nodejs-sample",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "2.51.*" 
+  }
+}
