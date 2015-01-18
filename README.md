@@ -13,7 +13,7 @@ $ npm install
 $ node app.js
 ~~~
 
-Tienes más información en la [docuementación Snap*](http://www.evosnap.com/support/knowledgebase/web-services-api-integration/).
+Tienes más información en la [docuementación de Snap*](http://www.evosnap.com/support/knowledgebase/web-services-api-integration/).
 
 # Autenticación
 
